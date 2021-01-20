@@ -1,0 +1,11 @@
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\bin\Debug\netcoreapp3.1\Nurikabe.exe
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\bin\Debug\netcoreapp3.1\Nurikabe.deps.json
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\bin\Debug\netcoreapp3.1\Nurikabe.runtimeconfig.json
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\bin\Debug\netcoreapp3.1\Nurikabe.runtimeconfig.dev.json
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\bin\Debug\netcoreapp3.1\Nurikabe.dll
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\bin\Debug\netcoreapp3.1\Nurikabe.pdb
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\obj\Debug\netcoreapp3.1\Nurikabe.csprojAssemblyReference.cache
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\obj\Debug\netcoreapp3.1\Nurikabe.AssemblyInfoInputs.cache
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\obj\Debug\netcoreapp3.1\Nurikabe.AssemblyInfo.cs
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\obj\Debug\netcoreapp3.1\Nurikabe.dll
+C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe\Nurikabe\obj\Debug\netcoreapp3.1\Nurikabe.pdb

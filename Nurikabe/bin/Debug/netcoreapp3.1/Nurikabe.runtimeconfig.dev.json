@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\flopko\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\flopko\\.nuget\\packages"
+    ]
+  }
+}
