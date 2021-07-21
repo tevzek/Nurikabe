@@ -18,12 +18,14 @@ namespace Nurikabe
         static void Main(string[] args)
         {
 
+            if (args.Contains("debug"))
+                misc.debug = true;
             Start();
             Console.WriteLine("Zazenem se enkrat? y/n");
             var in1 = Console.ReadLine();
             if (in1 == "y" || in1 == "Y")
             {
-                Main(null);
+                Main(args);
             }
             
         }

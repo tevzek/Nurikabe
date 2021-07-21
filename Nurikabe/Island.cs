@@ -68,6 +68,16 @@ namespace Nurikabe
                     amFull = true;
                 }
             }
+            public void printMe()
+            {
+                foreach (var pt in Points)
+                {
+                    Console.Write("["+pt.x+","+pt.y+"] ");
+                }
+                Console.Write("\n");
+
+                
+            }
 
             //vzamemo island A in B, vse tocke iz B damo v A in spremenimo Idje
             public void combineIslands(Island island)

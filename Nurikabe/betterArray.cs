@@ -584,6 +584,7 @@ namespace Nurikabe
         var sos = getSosede(pt);
         foreach (var s in sos)
         {
+            if(s.val == 0) continue;
             if (s.id > 0)
             {
                 if (ig)
@@ -754,7 +755,7 @@ namespace Nurikabe
         {
             if (open.Count > 1000)
             {
-                return (false, new List<List<nurikabePoint>>());
+                return (false, null);
             }
             //predelamo tocke
             //vzamemo en open in zadnjo tocko, ter preverimo ce je ok
@@ -1021,6 +1022,9 @@ namespace Nurikabe
         }
         return (izhod,moznosti);
     }
+    
+    
+    
     public (bool, List<Island>) dobiVseMozneIslande2(Island isl, bool mamVecKotPa2 = false)
     {
         List<Island> open = new List<Island>();
@@ -1033,6 +1037,7 @@ namespace Nurikabe
         while (open.Count>cnt )
         {
             var obdelovan = open[cnt];
+            obdelovan.printMe();
             //ce je otok poln ga dodamo med moznosit in povecamo cnt
             if (obdelovan.amFull)
             {
