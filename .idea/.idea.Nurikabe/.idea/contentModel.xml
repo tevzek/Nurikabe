@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\faks\MagLet2Sem1\OptimizacijskeMetode\DN\Nurikabe\Nurikabe" t="IncludeFlat">
+      <e p="Nurikabe" t="IncludeRecursive">
+        <e p="betterArray.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="GenetskiAlg.cs" t="Include" />
+        <e p="Island.cs" t="Include" />
+        <e p="ListElement.cs" t="Include" />
+        <e p="misc.cs" t="Include" />
+        <e p="Nurikabe.cs" t="Include" />
+        <e p="Nurikabe.csproj" t="IncludeRecursive" />
+        <e p="NurikabeFields" t="Include">
+          <e p="Nurikabe 8x11" t="Include" />
+          <e p="Nurikabe10x10" t="Include" />
+          <e p="nurikabe10x10v2" t="Include" />
+          <e p="Nurikabe10x10v3" t="Include" />
+          <e p="Nurikabe10x10v4" t="Include" />
+          <e p="Nurikabe10x10v5" t="Include" />
+          <e p="Nurikabe10x18" t="Include" />
+          <e p="Nurikabe10x18v2" t="Include" />
+          <e p="Nurikabe12x12" t="Include" />
+          <e p="nurikabe5x5" t="Include" />
+          <e p="NurikabeDebug5x5v1" t="Include" />
+          <e p="nurikabePrimer1" t="Include" />
+          <e p="nurikabePrimer2" t="Include" />
+          <e p="nurikabePrimer3" t="Include" />
+        </e>
+        <e p="nurikabePoint.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Nurikabe.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+      </e>
+      <e p="Nurikabe.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\flopko\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\flopko\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Nurikabe.-1996430899.00" t="ExcludeRecursive" />
+  </component>
+</project>
