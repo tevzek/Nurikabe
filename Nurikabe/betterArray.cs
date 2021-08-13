@@ -1037,7 +1037,7 @@ namespace Nurikabe
         while (open.Count>cnt )
         {
             var obdelovan = open[cnt];
-            obdelovan.printMe();
+            if(misc.debug)obdelovan.printMe();
             //ce je otok poln ga dodamo med moznosit in povecamo cnt
             if (obdelovan.amFull)
             {
