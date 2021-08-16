@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Text;
 using Microsoft.VisualBasic.CompilerServices;
 
 
@@ -17,9 +18,14 @@ namespace Nurikabe
         
         static void Main(string[] args)
         {
+            
+            Console.OutputEncoding = Encoding.UTF8;
 
+            
             if (args.Contains("debug"))
                 misc.debug = true;
+            if (args.Contains("legacy"))
+                misc.legacy = true;
             Start();
             Console.WriteLine("Zazenem se enkrat? y/n");
             var in1 = Console.ReadLine();

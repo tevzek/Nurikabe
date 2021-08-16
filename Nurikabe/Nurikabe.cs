@@ -56,6 +56,11 @@ namespace Nurikabe
 
         public string NarisiMe()
         {
+            if (!misc.legacy)
+            {
+                return NarisiMeLepse();
+            }
+            
             //todo naredi še za ostale ele tabele
             var outStr = "";
             for (var y = 0; y < ySize + 2; y++)
@@ -91,11 +96,57 @@ namespace Nurikabe
                     outStr += c;
                 }
 
-                outStr += "\n";
+                outStr += " \n";
             }
 
             return outStr;
         }
+
+        public string NarisiMeLepse()
+        {
+            string ret = "";
+            for (int i = 0; i < nurikabeArr.dim[0]; i++)
+            {
+                for (int i2 = 0; i2 < nurikabeArr.dim[1]; i2++)
+                {
+                    var a = nurikabeArr[i, i2];
+                    if (a < 0)
+                    {
+                        ret += "□□";
+                    }
+                    else if(a == 0)
+                    {
+                        ret += " •";
+                    }
+                    else
+                    {
+                        var pt = nurikabeArr.getPoint(i, i2);
+                        var anch = nurikabeArr.beliIsland[pt.id].anchor;
+                        if (pt != anch)
+                        {
+                            ret += "■■";
+                        }
+                        else
+                        {
+                            string tempp = a.ToString();
+                            if (tempp.Length == 1)
+                            {
+                                tempp = "0" + tempp;
+                            }
+
+                            ret += tempp;
+                        }
+                    }
+
+                    ret += " ";
+
+                }
+                ret += "\n";
+            }
+            return ret;
+
+        }
+
 
         private int razdaljaMedKvadratoma(nurikabePoint a, nurikabePoint b)
         {
